@@ -1,0 +1,294 @@
+/* ----------------------------------------
+global 
+------------------------------------------- */
+* {
+  box-sizing: border-box;
+  font-family: 'Avenir';
+}
+@font-face {
+  font-family: 'Avenir LT Std 65 Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Avenir LT Std 65 Medium'), url('AvenirLTStd-Medium.woff') format('woff');
+  }
+
+/* ----------------------------------------
+Navigation Bar
+------------------------------------------- */
+.btn {
+    top:5em;
+}
+
+nav {
+  text-align: end;
+}
+
+nav li {
+  text-align: center;
+  height: 49px;
+
+}
+
+/* ----------------------------------------
+Style
+------------------------------------------- */
+a.navbar-brand {
+  height: 100px;
+  font-size: 36px;
+}
+
+a.nav-link, img.nav-btn-subscribee {
+  font-size: 23px;
+  margin-top: 1em;
+}
+
+h1, h2, h3, h4, p {
+  text-align: center;
+}
+
+/* -------------------------------
+Style 1 - Intro
+----------------------------------- */
+h2.intro-h2 {
+  padding-top: 100px;
+  font-size: 40px;
+}
+
+h1.intro-h1 {
+  font-size: 56px;
+}
+
+h3.intro-h3 {
+  font-size: 30px;
+}
+
+p.intro-p {
+  font-size: 16px;
+}
+
+/* -------------------------------
+Style 2 - Tech
+----------------------------------- */
+h1.tech-h1 {
+  font-size: 56px;
+}
+
+p.tech-p {
+  font-size: 16px;
+}
+
+h3.tech-h3 {
+  font-size: 16px;
+}
+
+button.tech-button {
+  font-size: 17px;
+}
+
+/* -------------------------------
+Style 3 - How to use it
+----------------------------------- */
+h1.use-h1 {
+  font-size: 56px;
+}
+
+p.use-p {
+  font-size: 16px;
+}
+
+button.use-button {
+  font-size: 17px;
+}
+
+/* -------------------------------
+Style 4 - Compare
+----------------------------------- */
+h1.compare-col1-h1 {
+  font-size: 32px;
+}
+
+h2.compare-col1-h2 {
+  font-size: 25px;
+}
+
+h3.compare-col1-h3 {
+  font-size: 16px;
+}
+
+p.compare-col1-p {
+  font-size: 16px;
+}
+
+
+
+h1.compare-col2-h1 {
+  font-size: 32px;
+}
+
+h2.compare-col2-h2 {
+  font-size: 25px;
+}
+
+h3.compare-col2-h3 {
+  font-size: 16px;
+}
+
+p.compare-col2-p {
+  font-size: 16px;
+}
+
+
+/* ----------------------------------------
+Main
+------------------------------------------- */
+
+body {
+    height: 100%;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+/* 
+.intro-container,
+.tech-container,
+.use-container,
+.compare-one-container,
+.compare-two-container,
+.signoff-container { */
+  /* background-image: url(../images/sample.jpg); */
+    /* /* background-size: cover; */
+  /* width: 1440px; */
+/* } */
+
+
+.intro-container {
+  height: 871px;
+  background-image: url(../images/desktop/image1.png);
+  max-width:100%;
+  max-height:100%;
+  /* background-image: cover; 
+  background-repeat: no-repeat; */
+  /* background-size: auto; */
+  color: white;
+  /* overflow: hidden; */
+}
+.tech-container {
+  height: 871px;
+  background-color: black;
+  color: white;
+}
+.use-container {
+  height: 760px;
+  background-image: url(../images/desktop/image2.png);
+}
+
+.signoff-container {
+  background-image: url(../images/image3.jpg);
+  height: 760px;
+  background-repeat: no-repeat;
+}
+
+.compare-one-container {
+  height: 760px;
+  background-color: white;
+  color: black;
+}
+
+.compare-two-container {
+  align-items: center;
+  height: 760px;
+  background-color: #D3D0CB;
+  color: black;
+}
+
+/* ----------------------------------------
+Main - Images
+------------------------------------------- */
+
+.intro-container {
+  background-image: url(../images/image1.jpg);
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.tech-container {
+  background-color: black;
+} 
+
+.use-container {
+  background-image: url(../images/image2.png);
+}
+
+.compare-one-container {
+  background-color: white;
+} 
+.compare-two-container {
+  background-color: lightgray;
+} 
+
+.signoff-container {
+  background-image: url(../images/image3.png);
+}
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background: #fafafa;
+  border-top: solid 1px #eee;
+}
+
+.footer p {
+  margin-top: 30px;
+}
+
+
+
+html {
+min-height: 100%;
+position: relative;
+}
+
+html body {
+margin-bottom: 60px;
+}
+
+html #footer {
+bottom: 0;
+width: 100%;
+position: absolute;
+height: 60px;
+background-color: black;
+}
+
+html #footer .footer-block {
+margin-top: 20px;
+}
+
+.social-links a, .footer-box {
+font-size: 30px;
+padding: 15px;
+margin-bottom: 0;
+display: inline-block;
+color: white;
+text-align: center;
+}
+
+.footer-box {
+text-align: center;
+}
+
+
+a.footer-links {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
