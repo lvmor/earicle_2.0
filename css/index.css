@@ -7,23 +7,8 @@ global
 }
 
 /* ----------------------------------------
-Style
+General Style
 ------------------------------------------- */
-a.navbar-brand {
-  font-size: 36px;
-  padding-left: 100px;
-  font-weight: 500;
-}
-
-.nav-links {
-  font-size: 23px;
-  font-weight: 500;
-  text-align: center;
-}
-
-li.nav-items {
-  margin-right: 70px;
-}
 
 h1 {
   font-size: 3.125em;
@@ -47,6 +32,27 @@ p {
   font-weight: 100;
   font-size: 1em;
 }
+
+/* ----------------------------------------
+Navigation Bar
+------------------------------------------- */
+
+a.navbar-brand {
+  font-size: 2.25em;
+  padding-left: 3em;
+  font-weight: 500;
+}
+
+.nav-links {
+  font-size: 1.5em;
+  font-weight: 500;
+  text-align: center;
+}
+
+li.nav-items {
+  margin-right: 70px;
+}
+
 
 /* ----------------------------------------
 Modal
@@ -103,13 +109,16 @@ p.intro-p {
 }
 
 .coming-fall-2019 {
-  background: url(../images/image1.png) no-repeat;
+  background: url(../images/image1.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 225px 380px 225px;
+  /* padding: 225px 380px 225px; */
+  padding-top: 14em;
   color: white;
+  background-size: auto 100%;
+  height: 54.438em;
 }
 
 main {
@@ -125,7 +134,7 @@ Style 2 - a-new-perspective
 }
 
 .tech-p-1 {
-  padding-top: 1.5em;
+  padding-top: 1em;
   margin-top: 1em;
   line-height: 1.7;
 }
@@ -141,8 +150,10 @@ Style 2 - a-new-perspective
 
 .a-new-perspective {
   background: black;
-  padding: 150px 380px 150px;
+  /* padding: 150px 380px 150px; */
   color: white;
+  background-size: auto 100%;
+  height: 47.5em;
 }
 
 
@@ -162,14 +173,16 @@ p.use-p {
   padding-bottom: 5.5em;
 }
 
-.easy-as-123{
-  background: url(../images/image2.png) no-repeat;
+.easy-as-123 {
+  background: url(../images/image2.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 240px 380px 240px;
+  /* padding: 240px 380px 240px; */
   color: black;
+  background-size: auto 100%;
+  height: 47.5em;
 }
 
 /* -------------------------------
@@ -208,10 +221,11 @@ Style 4 - earicle-compare
 }
 
 .earicle-compare {
-  padding: 150px 130px 150px;
+  /* padding: 150px 130px 150px; */
   text-align: center;
   color: black;
 }
+
 
 /* -------------------------------
 Style 5 - the-future-is-now
@@ -235,18 +249,27 @@ h6.future-h6 {
 }
 
 .the-future-is-now {
-  background: url(../images/image3.png) no-repeat;
+  background: url(../images/image3.png) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 240px 380px 240px;
+  /* padding: 240px 380px 240px; */
+  
   color: white;
+  height: 47.5em;
+  background-size: auto 100%;
+}
+
+.future-container {
+  margin-top: 15em;
+  margin-bottom: 15em;
 }
 
 .col-xs-12, .col-12 {
   text-align: center;
 }
+
 
 
 /* ----------------------------------------
@@ -265,7 +288,6 @@ Footer
   color: white;
   font-weight: 500;
   text-transform: uppercase;
-  padding-right: 95px;
   text-decoration: none;
   display: inline-block;
 }
@@ -292,8 +314,93 @@ Footer
 
   ul {
     text-align: center;
-  }
-  ul > li {
-    display: inline-block;
+    list-style-type: none;
   }
 
+
+/* ----------------------------------------
+Responsive Media
+------------------------------------------- */
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 4000px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+
+    .a-new-perspective {
+      padding-top: 7em;
+    }
+
+    .easy-as-123 {
+      padding-top: 15em;
+    }
+
+    .future-container, .intro-container, .tech-container, .use-container {
+      padding-left: 25.1em;
+      padding-right: 25.1em;
+    }
+
+    .earicle-container {
+      margin-top: 10em;
+      margin-bottom: 10em;
+    }
+
+    ul > li {
+      display: inline-block;
+    }
+
+    .footer-text a {
+      padding-right: 95px;
+    }
+}
+
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    
+}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .tech-container {
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+
+    .easy-as-123 {
+      padding-top: 13em;
+    }
+
+    .earicle-container {
+      margin-top: 5em;
+      margin-bottom: 5em;
+    }
+
+    ul {
+      font-size: 1.5em;
+      padding-right: 40px;
+    }
+
+    .social-links a {
+      font-size: 2.5em;
+      padding-left: 10px;
+      }
+}
+
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 680px) {
+
+
+}
