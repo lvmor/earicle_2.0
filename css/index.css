@@ -237,7 +237,7 @@ h6.future-h6 {
   color: white;
 }
 
-.col-12 {
+.col-xs-12, .col-12 {
   text-align: center;
 }
 
@@ -289,3 +289,4 @@ Footer
   ul > li {
     display: inline-block;
   }
+
