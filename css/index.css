@@ -53,6 +53,19 @@ li.nav-items {
   margin-right: 70px;
 }
 
+.nav-link:before {
+  content: '';
+  display: block;
+  position: relative;
+  width: 0;
+  top: 1.5em;
+  border-bottom: 1px solid whitesmoke;
+  transition: width 0.4s;
+}
+
+.nav-link:hover:before {
+  width: 100%;
+}
 
 /* ----------------------------------------
 Modal
@@ -296,7 +309,7 @@ Footer
   display: block;
   position: relative;
   width: 0;
-  top: 2em;
+  top: 1.75em;
   border-bottom: 1px solid whitesmoke;
   transition: width 0.4s;
 }
