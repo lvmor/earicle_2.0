@@ -9,7 +9,7 @@ global
 /* ----------------------------------------
 Style
 ------------------------------------------- */
-span.navbar-brand{
+a.navbar-brand {
   font-size: 36px;
   padding-left: 100px;
   font-weight: 500;
@@ -103,6 +103,10 @@ p.intro-p {
   background-size: cover;
   padding: 225px 380px 225px;
   color: white;
+}
+
+main {
+  background:black;
 }
 
 /* -------------------------------
@@ -255,13 +259,33 @@ Footer
   font-weight: 500;
   text-transform: uppercase;
   padding-right: 95px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer-links:before {
+  content: '';
+  display: block;
+  position: relative;
+  width: 0;
+  top: 2em;
+  border-bottom: 1px solid whitesmoke;
+  transition: width 0.4s;
+}
+
+.footer-links:hover:before {
+  width: 100%;
 }
 
 .social-links a {
   font-size: 3.5em;
   color: white;
-  padding-right: 26px;
+  padding-right: .5em;
   }
 
-
-  
+  ul {
+    text-align: center;
+  }
+  ul > li {
+    display: inline-block;
+  }
