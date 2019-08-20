@@ -49,6 +49,27 @@ p {
 }
 
 /* ----------------------------------------
+Modal
+------------------------------------------- */
+
+.modal-title {
+  font-weight: 800;
+  font-size: 2em;
+  padding-top: 2.5em;
+  text-transform: uppercase;
+  padding-left: 10em;
+}
+
+#first-name, #last-name, #e-mail {
+  background: #D3D0CB;
+  color: black;
+}
+
+.modal-footer {
+  padding-bottom: 6em;
+}
+
+/* ----------------------------------------
 Body
 ------------------------------------------- */
 
@@ -112,6 +133,7 @@ Style 2 - a-new-perspective
   padding: 150px 380px 150px;
   color: white;
 }
+
 
 /* -------------------------------
 Style 3 - easy-as-123
