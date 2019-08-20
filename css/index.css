@@ -60,13 +60,20 @@ Modal
   padding-left: 10em;
 }
 
+.modal-par {
+  padding-bottom: 2em;
+  text-align: center;
+}
+
 #first-name, #last-name, #e-mail {
   background: #D3D0CB;
-  color: black;
+  margin-bottom: 1.5em;
+  width: 30em;
 }
 
 .modal-footer {
-  padding-bottom: 6em;
+  padding-top: 2.5em;
+  padding-bottom: 7em;
 }
 
 /* ----------------------------------------
