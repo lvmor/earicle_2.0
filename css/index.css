@@ -9,7 +9,7 @@ global
 /* ----------------------------------------
 Style
 ------------------------------------------- */
-a.navbar-brand{
+span.navbar-brand{
   font-size: 36px;
   padding-left: 100px;
   font-weight: 500;
@@ -18,7 +18,7 @@ a.navbar-brand{
 .nav-links {
   font-size: 23px;
   font-weight: 500;
-  padding-left: 280px;
+  text-align: center;
 }
 
 li.nav-items {
