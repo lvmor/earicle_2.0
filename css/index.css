@@ -61,7 +61,9 @@ li.nav-items {
   padding-right: 2em;
 }
 
-
+.white-nav {
+  padding-left: 1.5em;
+}
 
 
 /* ----------------------------------------
@@ -444,3 +446,13 @@ Responsive Media
     }
     
 }
+
+
+
+
+
+
+
+
+
+
