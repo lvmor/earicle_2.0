@@ -53,6 +53,15 @@ li.nav-items {
   margin-right: 70px;
 }
 
+.white-nav {
+  padding: 0;
+}
+
+.white-nav-sub {
+  padding-right: 2em;
+}
+
+
 
 
 /* ----------------------------------------
