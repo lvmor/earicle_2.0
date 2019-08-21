@@ -194,7 +194,7 @@ p.use-p {
 }
 
 .easy-as-123 {
-  background: url(../images/image2.png) no-repeat;
+  background: url(../images/image2.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -286,6 +286,8 @@ h6.future-h6 {
   text-align: center;
 }
 
+
+
 /* ----------------------------------------
 Footer
 ------------------------------------------- */
@@ -316,6 +318,7 @@ Footer
     text-align: center;
     list-style-type: none;
   }
+
 
 /* ----------------------------------------
 Responsive Media
@@ -446,5 +449,10 @@ Responsive Media
     .footer-links:before {
       top: 1.5em;
     }
+  
+    .easy-as-123 {
+      background: url(../images/image2.png) no-repeat;
+    }
     
 }
+
