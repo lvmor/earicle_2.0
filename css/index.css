@@ -63,6 +63,17 @@ li.nav-items {
 
 .white-nav {
   padding-left: 1.5em;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+.black-nav {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
 }
 
 
@@ -446,11 +457,6 @@ Responsive Media
     }
     
 }
-
-
-
-
-
 
 
 
