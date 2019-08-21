@@ -53,19 +53,7 @@ li.nav-items {
   margin-right: 70px;
 }
 
-.nav-link:before {
-  content: '';
-  display: block;
-  position: relative;
-  width: 0;
-  top: 1.5em;
-  border-bottom: 1px solid whitesmoke;
-  transition: width 0.4s;
-}
 
-.nav-link:hover:before {
-  width: 100%;
-}
 
 /* ----------------------------------------
 Modal
@@ -325,6 +313,19 @@ Responsive Media
   and (min-device-width: 1200px) 
   and (max-device-width: 4000px) 
   and (-webkit-min-device-pixel-ratio: 1) { 
+    .nav-link:before {
+      content: '';
+      display: block;
+      position: relative;
+      width: 0;
+      top: 1.5em;
+      border-bottom: 1px solid whitesmoke;
+      transition: width 0.4s;
+    }
+    
+    .nav-link:hover:before {
+      width: 100%;
+    }
 
     .a-new-perspective {
       padding-top: 7em;
@@ -365,8 +366,11 @@ Responsive Media
     .footer-links:hover:before {
       width: 100%;
     }
+    
+    ul.navbar-nav.mr-auto.nav-links {
+      padding-left: 10.5em;
+    }
 }
-
 
 /* ----------- Retina Screens ----------- */
 @media screen 
@@ -383,13 +387,15 @@ Responsive Media
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
     
-    ul.navbar-nav, a.nav-link {
-      text-align: center;
+    a.navbar-brand {
       padding: 0;
+      margin: 0;
     }
-    nav.navbar.navbar {
-      padding-left: 1em;
+
+    .nav-items {
+      padding-left: 3em;
     }
+
     .tech-container {
       margin-top: 2em;
       margin-bottom: 2em;
@@ -427,14 +433,5 @@ Responsive Media
     .footer-links:before {
       top: 1.5em;
     }
+    
 }
-
-
-
-
-
-
-
-
-
-
