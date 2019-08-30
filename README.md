@@ -39,5 +39,5 @@ User Stories (Required)
 2.6.2. An email address must contain exactly one @
 2.6.3. An email must contain exactly one period (.)
 
-4.Confirmation
-4.1.As a user, I want confirmation from the client that I am now on the list to receive notifications via email from the business
+3.Confirmation
+3.1. As a user, I want confirmation from the client that I am now on the list to receive notifications via email from the business
